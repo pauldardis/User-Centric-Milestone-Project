@@ -17,11 +17,39 @@
 <body>
 
     <!--Navbar Start-->
+
+    <nav class="navbar navbar-dark navbar-expand-sm">
+        <a class="logo-text">Cycle Tours</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse navbar--buttons" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mr-2 bnt-navbar "><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item mr-2 bnt-navbar"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarNavDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Destinations</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarNavDropdownMenuLink">
+                        <a class="dropdown-item bnt-navbar" href="mallorica.html">Mallorica</a>
+                        <a class="dropdown-item bnt-navbar " href="pyrenees.html">Pyrenees</a>
+                        <a class="dropdown-item bnt-navbar" href="alps.html">Alps</a>
+                    </div>
+                </li>
+                <li class="nav-item mr-2 bnt-navbar"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <!--Navbar End-->
 
 
 
     <!--Main Image Start-->
+
+
+    <div class="container-fluid ">
+        <img class="img-fluid" src="https://dummyimage.com/2654x400/000/fff" alt="main image" border="0">
+    </div>
+
+
     <!--Main Image End -->
 
 
@@ -34,6 +62,31 @@
 
 
     <!--Newsletter Start-->
+
+    <!--<div class="row">-->
+        <!--<div class="col-12">-->
+            <div class="container-fluid home-newsletter">
+                <div class="single">
+                    <h2>Subscribe to our Newsletter</h2>
+                    <form id="contact-form" method="post" action="#">
+                        <div class="messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="form-group input-group">
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                    <span class="input-group-btn"><button class="btn btn-theme" type="submit">Subscribe</button></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        <!--</div>-->
+    <!--</div>-->
+
+
     <!--Newsletter End-->
 
 

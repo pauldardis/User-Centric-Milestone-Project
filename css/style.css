@@ -1,0 +1,156 @@
+ /*   -------------General start--------------         */
+
+ .container-fluid {
+  margin: 0;
+  padding: 0;
+ }
+
+ .row {
+  margin: 0;
+  padding: 0;
+ }
+
+ .col-12 {
+  margin: 0;
+  padding: 0;
+ }
+
+
+ /*   -------------General end--------------         */
+
+ /*   -------------Navbar start--------------         */
+
+ .navbar {
+  /*min-height: 65%; */
+  /* this was removed on 13-06-2019 at 07:48 dont think its doing anything */
+  background-color: #9fa8a3;
+  width: 100%;
+  font-weight: bold;
+  padding-top: 0;
+  padding-bottom: 0;
+ }
+
+
+ .logo-text {
+  color: white!important;
+  font-size: 200%;
+  font: bold;
+  font-family: Impact;
+  font-style: oblique;
+  padding-left: 0px;
+ }
+
+
+ .navbar--buttons {
+  padding-left: 40px;
+ }
+
+
+ .nav-item {
+  padding-bottom: 13px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+ }
+
+ .nav-link {
+  padding-top: 20px;
+
+ }
+
+ .btn-navbar {
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+ }
+
+
+
+
+ /*this is not working*/
+
+ .bnt-navbar:active {
+  background-color: #da2a3a;
+ }
+
+ /*this is not working*/
+
+ .bnt-navbar:hover {
+  background-color: #da2a3a;
+  color: white;
+ }
+
+ .dropdown-menu {
+  background-color: #9fa8a3;
+  margin-top: 0px;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+
+ }
+
+ .dropdown-item {
+  color: white;
+  font: bold;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+ }
+
+ /*   -------------Navbar end--------------         */
+
+
+/*   -------------Newsletter Start--------------         */
+ .block-divider {
+  width: 100px;
+  height: 5px;
+  border: 0;
+  background-color: #444;
+
+ }
+
+ .home-newsletter {
+  padding-top: 30px;
+  padding-bottom: 40px!important;
+  background: #c5d5cb;
+ }
+
+ .home-newsletter .single {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+ }
+
+ .home-newsletter .single h2 {
+  font-size: 22px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+ }
+
+ .home-newsletter .single .form-control {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;
+ }
+
+ .home-newsletter .single .form-control:focus {
+  box-shadow: none;
+  border-color: #da2a3a;
+ }
+
+ .home-newsletter .single .btn {
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background: #da2a3a;
+  color: white;
+ }
+ 
+ 
+ /*   -------------Newsletter End -------------         */
