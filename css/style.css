@@ -1,3 +1,10 @@
+body { 
+background-color: #c5d5cb;
+ }
+ 
+
+
+ 
  /*   -------------General start--------------         */
 
  .container-fluid {
@@ -102,8 +109,25 @@
 
  /*   -------------Navbar end--------------         */
 
+ /*   -------------Large text area start--------------         */
 
-/*   -------------Newsletter Start--------------         */
+  .large-text-main {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    color: #9fa8a3!important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vw; 
+} 
+
+/*   -------------Large text area end--------------         */
+
+
+
+
+ /*   -------------Newsletter Start--------------         */
+
  .block-divider {
   width: 100px;
   height: 5px;
@@ -151,65 +175,72 @@
   background: #da2a3a;
   color: white;
  }
- 
- 
+
+
  /*   -------------Newsletter End -------------         */
- 
-  /*   -------------Footer Start  -------------         */
+
+ /*   -------------Footer Start  -------------         */
+
+ .footer-box {
+  background-color: #9fa8a3;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+ }
+
+ #footer-details {
+  padding: 16px;
+ }
+
+ .footer-logo {
+  padding-left: 0;
+
+ }
+
+ .footer-address {
+  padding-left: 0px;
+ }
+
+
+ .footer-text {
+  margin-bottom: 0;
+ }
+
+ .footer-text-email {
   
-  
-  .footer-box {
-    background-color: #9fa8a3;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
+  color: white;
+ }
 
-#footer-details {
-    padding: 20px;
-}
+ .footer-social {
+  padding-left: 0px;
+ }
 
-.footer-address {
-padding-left: 35px; 
-}
+ .social-links {
+  margin-top: 10px;
+  padding-bottom: 15px;
+ }
 
 
-.footer-text {
-  margin-bottom: 0;   
-}
-
-.footer-text-email {
-padding-bottom: 10px;
-color:white; }
-
-.social-header {
-    padding-left: 35px;  
-}
-
-.social-links {
-    padding-bottom: 15px;
-   }
-
-   
  .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+ }
 
-.social-links li a i:hover {
-    background: #da2a3a;
-}
+ .social-links li a i:hover {
+  background: #da2a3a;
+ }
 
-  
-   /*   -------------Footer End  -------------         */
+
+ /*   -------------Footer End  -------------         */
+ 
