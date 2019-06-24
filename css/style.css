@@ -320,11 +320,11 @@ body {
 
 }
 
- .key-info-box {
+.key-info-box {
  margin: 0;
- padding:0;
+ padding: 0;
 
-  }
+}
 
 
 
@@ -408,3 +408,18 @@ video {
 }
 
 /*   -------------Pyrenees  main content end -------------         */
+
+/*   -------------Booking Form  main content start -------------         */
+
+.booking-form {
+ align-items: center;
+ justify-content: center;
+
+}
+
+.btn-success:hover {
+ background-color: #da2a3a;
+}
+
+
+/*   -------------Booking Form  main content end -------------         */

@@ -56,19 +56,108 @@
 
 
     <!--Large Text Section Start-->
-        <div class="row">
-          <div class="col-12">
-               <div class="container-fluid ">
-                    <a class="large-text-main">Destinations</a>
-               </div>
-          </div>
-     </div>
-    
-    
+
+    <div class="row">
+        <div class="col-12">
+            <div class="container-fluid ">
+                <a class="large-text-main">Booking</a>
+            </div>
+        </div>
+    </div>
+
     <!--Large Text Section End-->
 
 
     <!--Main Conten Section Start-->
+
+    <div class="row booking-form ">
+        <div class="col-lg-8 ">
+            <form id="contact-form " method="post" action="#">
+                <div class="messages"></div>
+                <div class="controls">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label for="form_need">Tour you wish to book *</label>
+                                <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                    	   	<option value=""></option>
+                                    		<option value="Request quotation">Mallorica - 24th April - 30th April 2019</option>
+                                    		<option value="Request order status">Raid Pyrenees - 10th Aug - 16th Aug 2019</option>
+                                    		<option value="Request copy of an invoice">Alps - 1st Sept - 7th Sept 2019</option>
+                                    		</select>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="form_name">First Name *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Lastname *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="form_tel">Contact Number *</label>
+                                <input id="form_tel" type="tel" name="tel" class="form-control" placeholder="Please enter your contact number *" required="required" data-error="Contact number is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <p><input type="checkbox" required="required" data-error="Please, tick this box if you want to proceed."> I agree that i will wear a helmet while riding during my tour *</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <p><input type="checkbox"> Subscribe to our Newsletter</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="text-muted">
+                                <strong>*</strong> These fields are required. </p>
+                            <div class="row">
+                                <h4>On receipt of your form a member of the Cycle Tours team will contact you. </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
     <!--Main Content Section End -->
 
 
@@ -76,24 +165,23 @@
 
     <!--<div class="row">-->
     <!--<div class="col-12">-->
-    <div class="container-fluid home-newsletter">
-        <div class="single">
-            <h2>Subscribe to our Newsletter</h2>
-            <form id="contact-form" method="post" action="#">
-                <div class="messages"></div>
-                <div class="controls">
-                    <div class="row">
-                        <div class="form-group input-group">
-                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
-                            <div class="help-block with-errors"></div>
-                            <span class="input-group-btn"><button class="btn btn-theme" type="submit">Subscribe</button></span>
-                        </div>
-                    </div>
-                </div>
-
-            </form>
-        </div>
-    </div>
+    <!--<div class="container-fluid home-newsletter">-->
+    <!--    <div class="single">-->
+    <!--        <h2>Subscribe to our Newsletter</h2>-->
+    <!--        <form id="contact-form" method="post" action="#">-->
+    <!--            <div class="messages"></div>-->
+    <!--            <div class="controls">-->
+    <!--                <div class="row">-->
+    <!--                    <div class="form-group input-group">-->
+    <!--                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">-->
+    <!--                        <div class="help-block with-errors"></div>-->
+    <!--                        <span class="input-group-btn"><button class="btn btn-theme" type="submit">Subscribe</button></span>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </form>-->
+    <!--    </div>-->
+    <!--</div>-->
     <!--</div>-->
     <!--</div>-->
 
