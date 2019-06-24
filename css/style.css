@@ -272,7 +272,7 @@ body {
  display: block;
  /* text-align: center; */
  font-weight: 500;
- padding-top: 29px;
+ /*padding-top: 29px;*/
  max-width: 300px;
 }
 
@@ -302,8 +302,31 @@ body {
 
 /*   -------------Home page main content end -------------         */
 
-
 /*   -------------Pyrenees  main content start -------------         */
+
+.about-h2-text {
+ padding-left: 15px;
+}
+
+.test-about {
+ padding-left: 15px;
+ padding-right: 15px;
+
+}
+
+.key-information-text {
+ margin: 0;
+ padding: 0;
+
+}
+
+ .key-info-box {
+ margin: 0;
+ padding:0;
+
+  }
+
+
 
 .collapsible {
  background-color: #777;
@@ -380,8 +403,8 @@ body {
 
 
 video {
-  max-width: 100%;
-  height: auto;
+ max-width: 100%;
+ height: auto;
 }
 
 /*   -------------Pyrenees  main content end -------------         */
