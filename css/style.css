@@ -423,3 +423,42 @@ video {
 
 
 /*   -------------Booking Form  main content end -------------         */
+
+
+/*   -------------Contact  main content start -------------         */
+ /*.mapouter{*/
+ /*position:relative; */
+ /*text-align:center;*/
+ /*height:auto;*/
+ /*width:auto;*/
+ /*}*/
+ /*.gmap_canvas {*/
+ /*overflow:hidden;*/
+ /*background:none!important;*/
+ /*height:auto;*/
+ /*width:auto;*/
+/* padding-top:35px;*/
+/* } */
+  
+/* .map {*/
+/*width:auto;*/
+/* height:360px;*/
+/*   }*/
+   
+   .map-responsive{
+    overflow:hidden;
+    padding-bottom: 50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    padding-top: 35px;
+    height:100%;
+    width:100%;
+    position:absolute
+   
+   
+  
+/*   -------------Contact  main content end -------------         */
