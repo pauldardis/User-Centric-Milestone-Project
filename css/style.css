@@ -243,6 +243,13 @@ body {
 
 /*   -------------Home page main content start -------------         */
 
+.img-square {
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 10% 10% 0 0 ;
+}
+
 .img-rounded-square {
  border-radius: 50px;
  display: block;
@@ -256,6 +263,25 @@ body {
  max-height: 250px;
  max-width: 250px;
 }
+
+.responsive-main {
+ width: 100%;
+ height: auto;
+
+}
+
+.card {
+ background-color: #c5d5cb;
+ border-style: hidden;
+ border-radius: 10% 10% 0 0 ;
+ 
+}
+
+  .card:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.85);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.85);
+  box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.85);
+   }
 
 .destination-text-h2 {
  margin-left: auto;
