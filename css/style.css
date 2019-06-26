@@ -426,24 +426,7 @@ video {
 
 
 /*   -------------Contact  main content start -------------         */
- /*.mapouter{*/
- /*position:relative; */
- /*text-align:center;*/
- /*height:auto;*/
- /*width:auto;*/
- /*}*/
- /*.gmap_canvas {*/
- /*overflow:hidden;*/
- /*background:none!important;*/
- /*height:auto;*/
- /*width:auto;*/
-/* padding-top:35px;*/
-/* } */
-  
-/* .map {*/
-/*width:auto;*/
-/* height:360px;*/
-/*   }*/
+
    
    .map-responsive{
     overflow:hidden;
@@ -458,7 +441,7 @@ video {
     height:100%;
     width:100%;
     position:absolute
-   
+}
    
   
 /*   -------------Contact  main content end -------------         */
