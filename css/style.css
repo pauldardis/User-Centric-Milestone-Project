@@ -7,7 +7,7 @@ body {
 
 /*   -------------General start--------------         */
 
-.container-fluid {
+.main-image-gap {
  margin: 0;
  padding: 0;
 }
@@ -17,10 +17,12 @@ body {
  padding: 0;
 }
 
-.col-12 {
+
+.footer-gap {
  margin: 0;
  padding: 0;
 }
+
 
 
 /*   -------------General end--------------         */
@@ -183,6 +185,8 @@ body {
  color: #fafafa;
  min-height: 120px;
  margin: 0;
+
+ 
 }
 
 #footer-details {
@@ -456,7 +460,7 @@ video {
    
    .map-responsive{
     overflow:hidden;
-    padding-bottom: 50%;
+    padding-bottom: 100%;
     position:relative;
     height:0;
 }
