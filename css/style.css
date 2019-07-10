@@ -170,6 +170,7 @@ padding-top:60px;
 .home-newsletter .single .form-control:focus {
  box-shadow: none;
  border-color: #da2a3a;
+
 }
 
 .home-newsletter .single .btn {
@@ -177,6 +178,7 @@ padding-top:60px;
  border-radius: 0 20px 20px 0;
  background: #da2a3a;
  color: white;
+ border-color: #da2a3a;
 }
 
 
@@ -282,7 +284,12 @@ padding-top:60px;
  background-color: #c5d5cb;
  border-style: hidden;
  border-radius: 10% 10% 0 0 ;
+ display: table;
  
+}
+.card-test {
+   display: table-cell;
+  padding: 16px;
 }
 
   .card:hover {
