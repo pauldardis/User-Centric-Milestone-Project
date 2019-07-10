@@ -349,6 +349,20 @@ font-style:italic;
 
 /*   -------------Home page main content end -------------         */
 
+/*   -------------About page main content end -------------         */
+.hr-about {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin: 0;
+ border-color: transparent;
+}
+
+
+
+
+/*   -------------About page main content end -------------         */
+
+
 /*   -------------Pyrenees  main content start -------------         */
 
 .about-h2-text {
