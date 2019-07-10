@@ -336,6 +336,11 @@ padding-top:60px;
  -o-transition: all 0.35s ease-in-out;
 }
 
+.btn-secondary {
+
+/*background-color: EDFFD1;*/
+}
+
 .btn-secondary:hover {
  background-color: #da2a3a;
  border-color: #da2a3a;
