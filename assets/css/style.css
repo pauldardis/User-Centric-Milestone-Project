@@ -124,8 +124,8 @@ body {
 }
 
 .destination-heading {
-padding-top:60px;
- }
+ padding-top: 60px;
+}
 
 
 /*   -------------Large text area end--------------         */
@@ -169,6 +169,7 @@ padding-top:60px;
 }
 
 .home-newsletter .single .form-control:focus {
+ -webkit-box-shadow: none;
  box-shadow: none;
  border-color: #da2a3a;
 
@@ -193,7 +194,7 @@ padding-top:60px;
  min-height: 120px;
  margin: 0;
 
- 
+
 }
 
 #footer-details {
@@ -255,10 +256,10 @@ padding-top:60px;
 /*   -------------Home page main content start -------------         */
 
 .img-square {
-  display: block;
+ display: block;
  margin-left: auto;
  margin-right: auto;
- border-radius: 10% 10% 0 0 ;
+ border-radius: 10% 10% 0 0;
 }
 
 .img-rounded-square {
@@ -284,20 +285,21 @@ padding-top:60px;
 .card {
  background-color: #c5d5cb;
  border-style: hidden;
- border-radius: 10% 10% 0 0 ;
+ border-radius: 10% 10% 0 0;
  display: table;
- 
-}
-.card-test {
-   display: table-cell;
-  padding: 16px;
+
 }
 
-  .card:hover {
-  -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.85);
-  -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.85);
-  box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.85);
-   }
+.card-test {
+ display: table-cell;
+ padding: 16px;
+}
+
+.card:hover {
+ -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.85);
+ /*-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.85);removed after checking auto-prefixer */
+ box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.85);
+}
 
 .destination-text-h2 {
  margin-left: auto;
@@ -338,7 +340,7 @@ padding-top:60px;
 
 .btn-secondary {
 
-/*background-color: EDFFD1;*/
+ /*background-color: EDFFD1;*/
 }
 
 .btn-secondary:hover {
@@ -347,14 +349,15 @@ padding-top:60px;
 }
 
 .h3-main {
-font-style:italic;
- }
+ font-style: italic;
+}
 
 
 
 /*   -------------Home page main content end -------------         */
 
 /*   -------------About page main content end -------------         */
+
 .hr-about {
  padding-top: 10px;
  padding-bottom: 10px;
@@ -366,7 +369,6 @@ font-style:italic;
 
 
 /*   -------------About page main content end -------------         */
-
 
 /*   -------------Pyrenees  main content start -------------         */
 
@@ -427,40 +429,48 @@ font-style:italic;
  padding: 0 18px;
  max-height: 0;
  overflow: hidden;
+ -webkit-transition: max-height 0.2s ease-out;
+ -o-transition: max-height 0.2s ease-out;
  transition: max-height 0.2s ease-out;
  background-color: #c5d5cb;
 }
 
 
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+ -ms-flex: 25%;
+ /* IE10 */
+ -webkit-box-flex: 25%;
+ flex: 25%;
+ max-width: 25%;
+ padding: 0 4px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+ margin-top: 8px;
+ vertical-align: middle;
+ width: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+ .column {
+  -ms-flex: 50%;
+  -webkit-box-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+ }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+ .column {
+  -ms-flex: 100%;
+  -webkit-box-flex: 100%;
+  flex: 100%;
+  max-width: 100%;
+ }
 }
 
 
@@ -510,7 +520,11 @@ video {
 /*   -------------Booking Form  main content start -------------         */
 
 .booking-form {
+ -webkit-box-align: center;
+ -ms-flex-align: center;
  align-items: center;
+ -webkit-box-pack: center;
+ -ms-flex-pack: center;
  justify-content: center;
 
 }
@@ -522,24 +536,23 @@ video {
 
 /*   -------------Booking Form  main content end -------------         */
 
-
 /*   -------------Contact  main content start -------------         */
 
-   
-   .map-responsive{
-    overflow:hidden;
-    padding-bottom: 100%;
-    position:relative;
-    height:0;
+.map-responsive {
+ overflow: hidden;
+ padding-bottom: 100%;
+ position: relative;
+ height: 0;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    padding-top: 35px;
-    height:100%;
-    width:100%;
-    position:absolute
+
+.map-responsive iframe {
+ left: 0;
+ top: 0;
+ padding-top: 35px;
+ height: 100%;
+ width: 100%;
+ position: absolute
 }
-   
-  
+
+
 /*   -------------Contact  main content end -------------         */
