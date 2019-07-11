@@ -328,8 +328,8 @@ body {
 }
 
 .btn {
- background-color: #e3e0cf;
- border-color: #e3e0cf;
+ background: rgba(255, 255, 255, 0.6);
+ border-color: transparent;
  color: black;
  border-radius: 20px;
  transition: all 0.35s ease-in-out;
