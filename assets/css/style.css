@@ -290,6 +290,11 @@ body {
 
 }
 
+.card-footer {
+ border-style: hidden;
+ background-color: #c5d5cb;
+}
+
 .card-test {
  display: table-cell;
  padding: 16px;
