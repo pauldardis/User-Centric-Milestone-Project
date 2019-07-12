@@ -30,8 +30,6 @@ body {
 /*   -------------Navbar start--------------         */
 
 .navbar {
- /*min-height: 65%; */
- /* this was removed on 13-06-2019 at 07:48 dont think its doing anything */
  background-color: #9fa8a3;
  width: 100%;
  font-weight: bold;
@@ -296,10 +294,10 @@ body {
  
 }
 
-.card-test {
- display: table-cell;
- padding: 16px;
-}
+/*.card-test {*/
+/* display: table-cell;*/
+/* padding: 16px;*/
+/*}*/
 
 .card:hover {
  -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.85);
@@ -344,10 +342,7 @@ body {
  -o-transition: all 0.35s ease-in-out;
 }
 
-.btn-secondary {
 
- /*background-color: EDFFD1;*/
-}
 
 .btn-secondary:hover {
  background-color: #da2a3a;
@@ -386,11 +381,19 @@ body {
  padding-left: 15px;
 }
 
-.test-about {
+/*.test-about {*/
+/* padding-left: 15px;*/
+/* padding-right: 15px;*/
+
+/*}*/
+
+.text-about {
  padding-left: 15px;
  padding-right: 15px;
 
 }
+
+
 
 .key-information-text {
  margin: 0;
