@@ -24,7 +24,9 @@ body {
  padding: 0;
 }
 
-
+.text-bold {
+ font-weight: bold;
+}
 /*   -------------General end--------------         */
 
 /*   -------------Navbar start--------------         */
