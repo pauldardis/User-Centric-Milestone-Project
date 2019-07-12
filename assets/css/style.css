@@ -293,6 +293,7 @@ body {
 .card-footer {
  border-style: hidden;
  background-color: #c5d5cb;
+ 
 }
 
 .card-test {
@@ -354,6 +355,10 @@ body {
 }
 
 .h3-main {
+ font-style: italic;
+}
+
+.h1-main {
  font-style: italic;
 }
 
