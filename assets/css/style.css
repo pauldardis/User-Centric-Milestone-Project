@@ -311,10 +311,7 @@ body {
  
 }
 
-/*.card-test {*/
-/* display: table-cell;*/
-/* padding: 16px;*/
-/*}*/
+
 
 .card:hover {
  -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.85);
@@ -398,11 +395,7 @@ body {
  padding-left: 15px;
 }
 
-/*.test-about {*/
-/* padding-left: 15px;*/
-/* padding-right: 15px;*/
 
-/*}*/
 
 .text-about {
  padding-left: 15px;
