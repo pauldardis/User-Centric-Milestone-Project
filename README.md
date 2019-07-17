@@ -45,12 +45,17 @@ Since 2012 I have been organising tours for my cycling club they have become mor
 There are 3 card features displaying the current 3 tours. These cards hold images of the trip and provide a brief description of the tour. There is a button which will allow the user to click which will bring them to the relevant tour page. Currently we only plan 3 tours per year this may change in future years and we will add more cards into the main page. 
 
 Newsletter subscription service
+
+![Home page](/assets/images/home.JPG)
+
 #### About Page
 Allows the user to get a brief description of the company and also the team running the tours. 
 
 The team section is designed in a zig-zag layout to make it more visual 
 
 Newsletter subscription service 
+
+![About page](/assets/images/about.JPG)
 
 #### Destination pages (Mallorca, Pyrenees and Alps) 
 Brief description of the tour 
@@ -67,12 +72,20 @@ Gallery of phots taken during the tour.
 
 Newsletter subscription service 
 
+![Destination page](/assets/images/destination.JPG)
+
+![destination itinerary video](/assets/images/destination2.JPG)
+
+![Destination galery](/assets/images/destination3.JPG)
+
 #### Contacts 
 Form to allow a user to contact us and request more information (this information doesn’t go anywhere at the moment). 
 
 A google map to show were we are located.  
 
 A newsletter subscription service 
+
+![Contact Page](/assets/images/contact.JPG)
 
 #### Booking 
 
@@ -81,6 +94,8 @@ A booking form that allows a user to request more information or provisionally b
 Tick box to confirm that the user agrees to wear a helmet during the tour. 
 
 Tick box to subscribe to the newsletter
+
+![Booking Page](/assets/images/booking.JPG)
 
 ### Technologies Used
 1.	HTML
@@ -187,7 +202,13 @@ Images for alps.html were taken from Band of Climbers website
 All other images were privately owned. 
 
 #### Code Snippets 
-A certain amount of code was taken from Projects I did during the course. Comments have been added in the files where I have copied code used.
+Newsletter signup snipit was got from Bootsnipp.com (https://bootsnipp.com/snippets/eoXRa)
+
+Collapsible section in mallorca.html alps.html and pyrenees.html was got from w2schools.com (https://www.w3schools.com/howto/howto_js_collapsible.asp) 
+
+Contact form snipit was got from bootsnipp.com (https://bootsnipp.com/snippets/zD4p9) 
+
+All code snipits were modified to suit the website
 
 ### Disclaimer:
 This project was created for educational use.
