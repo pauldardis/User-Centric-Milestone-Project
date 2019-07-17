@@ -181,7 +181,8 @@ Tick box to subscribe to the newsletter
 2.	Incorrectly fill out form by leaving out information or inputting invalid information, confirm that error message is sent when “Send Message” link is pressed. 
 3.	Using the Inspect functionality in Chrome confirm that page is responsive across all devices. 
 
-
+#### Testing issues and observations
+1.  
 
 ### Deployment
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/pauldardis/User-Centric-Milestone-Project into your terminal. To unlink the site from the GitHub repository, type git remote rm origin into the terminal.
