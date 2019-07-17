@@ -202,14 +202,23 @@ To run locally, you can clone this repository directly into the editor of your c
 The site is hosted on GitHub and can be run from there or locally by pasting the following link directly into your browser. https://pauldardis.github.io/User-Centric-Milestone-Project/index.html
 To view the source code please click on the following GitHub address https://github.com/pauldardis/User-Centric-Milestone-Project
 
+
+### Future Developments
+1.  Resolve the issues that were highlighted during the testing in phase 1.
+2.  Image modal on the destination pages to allow a user to see the gallery images in full screen.
+3.  Backend system to allow users to subscribe to a newsletter.
+4.  Backend system to allow users to capture information from contact form.
+5.  Functionally to allow users to register and login to view private pages. 
+
+
 ### Credits
 
 #### Content
-Images for alps.html were taken from Band of Climbers website
+Images for alps.html were taken from Band of Climbers website https://www.bandofclimbers.com/ 
 All other images were privately owned. 
 
 #### Video
-Video routes were provide by relive.cc and were developed from my own Strava uploads.
+Video routes were provide by https://www.relive.cc/ and were developed from my own Strava uploads.
 
 #### Photos
 Images for alps.html were taken from Band of Climbers website
