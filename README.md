@@ -224,6 +224,18 @@ Contact form snipit was got from bootsnipp.com (https://bootsnipp.com/snippets/z
 
 All code snipits were modified to suit the website
 
+#### Testing Tools
+1.  https://validator.w3.org/
+2.  https://jigsaw.w3.org/css-validator/
+3.  https://tools.pingdom.com/
+
+
+#### Development Tools
+1.  https://tinyjpg.com/ used to reduced down the file size of the images.
+2.  Gimp https://www.gimp.org/ image manipulation program
+3.  Adobe Color https://color.adobe.com/create 
+
+
 ### Disclaimer:
 This project was created for educational use.
 
