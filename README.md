@@ -182,7 +182,20 @@ Tick box to subscribe to the newsletter
 3.	Using the Inspect functionality in Chrome confirm that page is responsive across all devices. 
 
 #### Testing issues and observations
-1.  
+1.  Intermittently images are not downloading fast enough as a result text is visable first and then its pushed down by the image. I have reduced down all image’s  file size using https://tinyjpg.com/ however it has made no difference.  Using pingdom.com I now believe the issue is being caused by “fontawesome” its taking on average 566ms to load. A fix for this issue will be applied in the next phase of this website one possible solution is to load fontawesome via javescript.
+
+![Speed Issue](/assets/images/speedissue.JPG)
+
+2.  The main image on each page is responsive however if you zoom the web browser down to 50% (Ctrl -) a gap is created on the right hand side. I have gone through the configuration many times and I’m unable to find the root cause. The only way I have been able to resolve the issue is by increasing the file size however this is not a proper fix. I will continue to investigate the fault and hope to have a fix in the next phase of the website.
+ 
+![Image Gap](/assets/images/imagegap.JPG)
+
+3. When I fixed the Navbar at the top of the page the image is moving to the top of the body of the page as a result the image is being clipped.  To date I have been unable to resolve the issue however I have put in a temporary fix to minimise the issue, in the ccs file under .main-image-gap I have added padding-top: 3em; this pushes  down to an acceptable level however it still is slightly behind the navbar. I have tried adjusting the size of the padding however if it goes above 3em it cause a gap when viewed on a mobile. I will continue to investigate the fault and hope to have a fix in the next phase of the website.
+
+![Navbar Issue](/assets/images/navbarissue.JPG)
+
+
+
 
 ### Deployment
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/pauldardis/User-Centric-Milestone-Project into your terminal. To unlink the site from the GitHub repository, type git remote rm origin into the terminal.
