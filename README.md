@@ -209,6 +209,7 @@ To view the source code please click on the following GitHub address https://git
 3.  Backend system to allow users to subscribe to a newsletter.
 4.  Backend system to allow users to capture information from contact form.
 5.  Functionally to allow users to register and login to view private pages. 
+6.  Backend system to allow users to make a booking. 
 
 
 ### Credits
